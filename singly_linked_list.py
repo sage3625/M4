@@ -1,4 +1,4 @@
-#Generate the linked list class
+#Generate the linked list and node classes
 class Node:
     def __init__(self, data):
         self.data = data
