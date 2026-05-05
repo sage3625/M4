@@ -44,6 +44,7 @@ print("\n----- Infix to Postfix Converter -----")
 conv = InfixToPostfixConverter()
 for expr in infix_tests:
     print(f"[{expr}] -> [{conv.convert(expr)}]")
+
 # ------------------------------
 # Linked List Tests
 # ------------------------------
