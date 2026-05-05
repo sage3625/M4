@@ -2,7 +2,7 @@
 from stack import Stack
 
 class InfixToPostfixConverter:
-        precedence = {
+    precedence = {
         '+': 1,
         '-': 1,
         '*': 2,
